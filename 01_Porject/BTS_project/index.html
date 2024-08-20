@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boot Strap Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #position {
+            position: fixed;
+            bottom: 14px;
+            left: 14px;
+        }
+
+        #position1 {
+            position: fixed;
+            bottom: 14px;
+            right: 14px;
+        }
+    </style>
+    <style>
+                @media screen and (min-width: 480px) {
+            .carousel-item img {
+                aspect-ratio: 1/1;
+                max-height: 500px;
+                object-fit: cover;
+                
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .carousel-item img {
+                aspect-ratio: 1/1;
+                max-height: 200px;
+                object-fit: cover;
+            }
+        }
+               
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top mb-5  navbar-dark bg-white">
+        <div class="container-fluid  ">
+            <img src="logo.webp" alt="logo" height="60px;" width="160px" class="d-flex align-items-center">
+
+            <button class="navbar-toggler bg-dark me-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar" aria-expanded="true">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" navbar-collapse collapse  w-100 justify-content-end  " id="collapsibleNavbar">
+                <div class="navbar-nav ">
+                    <a class="nav-link nav-item" href="#" style="color: black; font-weight: bold;">HOME</a>
+                    <a class="nav-link nav-item" href="#" style="color: black; font-weight: bold;">TOURE PACKAGE</a>
+                    <a class="nav-link nav-item" href="#" style="color: black; font-weight: bold;">CAR PACKAGE</a>
+                    <a class="nav-link nav-item" href="#" style="color: black; font-weight: bold;">CONTACT US</a>
+                    <a class="nav-link nav-item" href="#" style="color: black; font-weight: bold;">+91
+                        8875230969</a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- mainimage -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="http://www.finetourindia.in/public/webassets/img/banner4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="http://www.finetourindia.in/public/webassets/img/banner1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="http://www.finetourindia.in/public/webassets/img/fit_banner.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- about us start -->
+    <div class="container-fluid py-5 px-lg-0 overflow-hidden">
+        <div class=" container px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 fadeInLeft">
+                    <img src="about11.webp" alt="img" class="w-100 h-100 img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-danger mb-3">About us</h6>
+                    <h1 class="mb-5">Fine Toure india</h1>
+                    <p>
+                        Welcome to Rajasthan! Explore the land with the rich culture of folk music & dance, ancient
+                        architecture, and the vast beautiful golden desert with Fine Tour India. Book Rajasthan tour
+                        taxi/cab with Fine Tour India. Rajasthan has many beautiful places to explore. With a private
+                        car get a glimpse of the historic beauty of this state. Drive around the cities of Rajasthan
+                        with our well & professional driver and explore the places just like a local.
+                    </p>
+                    <div class="row g-4 pb-3">
+                        <div class="col-sm-6 text-center">
+                            <img src="taxi.png" alt="taxi" class="img-fluid w-60 h-60">
+                            <h5>PREMIUM VEHICALES</h5>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <img src="safty.png" alt="safty" class="img-fluid " style="height: 160px;">
+                            <h5>SAFTY AND SECURITY</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about end -->
+
+    <!-- our toure package -->
+    <div class="container-xxl  py-5">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="text-danger ">Our Package</h5>
+                <h1 class="mb-3">Our toure Package</h1>
+            </div>
+            <div class="row g-4">
+                <div class=" col-md-6 col-lg-4 ">
+                    <div class=" service-item p-4">
+                        <div class="mb-4 ">
+                            <img src="Hawa-Mahal.jpg" class="img-fluid h-100 w-100 " alt="hawamhal">
+                        </div>
+                        <h4 class="mb-4">Jaipur sighteeing toure</h4>
+                        <p>
+                            Jaipur Sightseeing Package is a well-planned tour of the Pink City Rajasthan that includes a
+                            half-day and full-day sightseeing of the city.
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+
+                </div>
+                <div class=" col-md-6 col-lg-4">
+                    <div class="p-4">
+                        <div class="mb-4 ">
+                            <img src="golden.webp" class="img-fluid h-100 w-100" alt="pani">
+                        </div>
+                        <h4 class="mb-4">Golden Triangle Tour</h4>
+                        <p>
+                            Rajasthan is a royal state in India, known for rich heritage, traditions, splendid forts,
+                            majestic palace s and colorful bazaars.
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+
+                </div>
+                <div class=" col-md-6 col-lg-4">
+                    <div class="p-4">
+                        <div class="mb-4 joom">
+                            <img src="pushkar.webp" class="img-fluid h-100 w-100" alt="elephant">
+                        </div>
+                        <h4 class="mb-4">Jaipur Pushkar</h4>
+                        <p>
+                            Pushkar is a holy city in Rajasthan, famous for its Brahma temple, lake, ghats, and bazaar.
+                            Pushkar is situated at a distance of 142 km...
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="p-4">
+                        <div class="mb-4 joom">
+                            <img src="ranthambore1.webp" class="img-fluid h-100 w-100" alt="ranthombar">
+                        </div>
+                        <h4 class="mb-4">Jaipur Ranthombar</h4>
+                        <p>
+                            This wildlife sanctuary is famous for Tiger safari and seeing other wild animals like bears,
+                            deer, crocodiles, leopard, wild boar and many...
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-4 ">
+                    <div class="p-4">
+                        <div class="mb-4 joom">
+                            <img src="taj.webp" class="img-fluid h-100 w-100" alt="tajmahal">
+                        </div>
+                        <h4 class="mb-4 ">Jaipur Agra</h4>
+                        <p>
+                            Agra is the most frequently visited tourist destination in India which is widely famous for
+                            its Seven Wonder’s of the World, Taj Mahal.
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4  ">
+                    <div class="p-4">
+                        <div class="mb-4 joom">
+                            <img src="rajasthan.webp" class="img-fluid h-100 w-100" alt="jalmahal">
+                        </div>
+                        <h4 class="mb-4">Rajasthan toure</h4>
+                        <p>
+                            Rajasthan is a state of vibrant folk dance and music, gigantic forts and palaces, spicy
+                            food, colourful and large turbans, extensive golden
+                        </p>
+                        <button type="button" class="btn btn-success">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- why choose -->
+
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 fadeInLeft p-4">
+                    <h6 class="text-danger mb-3">Some facts</h6>
+                    <h1 class="mb-5">Why choose fine toure india?</h1>
+                    <p class="mb-5">Book One Way taxi in all over Rajasthan & get Great Best Price.</p>
+                    <p class="mb-3">Planning a Rajasthan tour? Book Rajasthan car hire or rental service from Fine Tour
+                        India and get
+                        amazing deals on well-maintained cars like Innova, Crysta, New Swift Dzire and Toyota. Our car
+                        hire services ensure utmost comfort at very reasonable prices. The cost also covers driver
+                        insurance, fuel, parking, and all applicable taxes. (excluding the driver’s tip which is
+                        discretionary)</p>
+                    <div class="d-flex">
+                        <div>
+                            <img src="call.png" alt="call" class="img-fluid" style="width: 50px;">
+                        </div>
+                        <div style="margin-left: 10px;" class="text-center">
+                            <h5 class="h5">Call for any query!</h5>
+                            <h4 class="h4 text-danger">+91 8875230969</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-0 fadeInLeft ">
+                    <div class="row g-4 pb-3">
+                        <div class="col-sm-6 ">
+                            <img src="taxi.png" alt="taxi" class="img-fluid" style="height: 100px;">
+                            <h5>Trained And Skilled Drivers</h5>
+                            <p>We believe that our chauffeurs are our biggest asset. Why we carefully handpick the best
+                                and provide them with sufficient training.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="twentyfour.png" alt="safty" class="img-fluid " style="height: 100px;">
+                            <h5>Easy Booking 24 X 7</h5>
+                            <p>We offer instant booking any time of the day and you receive the confirmation message
+                                directly to your phone or inbox.</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 pb-3">
+                        <div class="col-sm-6 ">
+                            <img src="card.webp" alt="taxi" class="img-fluid" style="height: 100px;">
+                            <h5>Fully-Customisable Packages</h5>
+                            <p>Why should you pay for places you don't visit? Or why visit places you don't have an
+                                interest? No more paying extra Money.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="yes.webp" alt="safty" class="img-fluid " style="height: 100px;">
+                            <h5>Free Cancellation</h5>
+                            <p>Whether you want to inquire about the package or contact us during the trip, we make sure
+                                to give a quick response to everyone.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- completer facts -->
+
+    <!-- cars -->
+
+    <div class="container-fluid mb-5 mt-5">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="text-danger ">Our Package</h5>
+                <h1 class="mb-3">Car Rental Service</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4 joom">
+                        <div class="mb-4">
+                            <img src="innova.webp" class="img-fluid h-100 w-100 " alt="innova">
+                        </div>
+                        <h4>INNOVA CRYSTA</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 6+1 (including Driver)</p>
+                        </div>
+                        <p>
+                            Jaipur Sightseeing Package is a well-planned tour of the Pink City Rajasthan that includes a
+                            half-day and full-day sightseeing of the city
+                        </p>
+                        <button type="button" class="btn btn-success">Book Now</button>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="luxury-coaches.webp" class="img-fluid h-100 w-100" alt="pani">
+                        </div>
+                        <h4>LUXURY COACHES</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 29, 35, 45 Seater</p>
+                        </div>
+                        <p>
+                            We offer a wide range of professional Coach Rental and Bus Rental Services at reasonable
+                            prices. You can hire tempo traveller with us at economic rates.
+                        </p>
+                        <button type="button" class="btn btn-success">Book now</button>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="swift-dzire.webp" class="img-fluid h-100 w-100" alt="elephant">
+                        </div>
+                        <h4>SWIFT D'ZIRE</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 4+1 (including Driver)</p>
+                        </div>
+                        <p>
+                            Meet the all-new Maruti Swift Dzire is a great option for all cab and taxi drivers with
+                            improved features and technologies.
+                        </p>
+                        <button type="button" class="btn btn-success">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="toyata.webp" class="img-fluid h-100 w-100" alt="ranthombar">
+                        </div>
+                        <h4>TOYOTA ETIOS</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 4+1 (including Driver)</p>
+                        </div>
+                        <p>
+                            Booking Toyota Etios through Car Rental In Udaipur assures a comfortable, safe, quick and
+                            trouble free journey to destinations.
+
+
+                        </p>
+                        <button type="button" class="btn btn-success">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="tempo.webp" class="img-fluid h-100 w-100" alt="tajmahal">
+                        </div>
+                        <h4>TEMPO TRAVELLER</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 10, 12, 14 Seater</p>
+                        </div>
+                        <p>
+                            A tempo traveller is a luxury minibus with a seating capacity ranging between 12 to 30
+                            people. Tempo travellers come with various features.
+                        </p>
+                        <button type="button" class="btn btn-success">Book Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="innova.webp" class="img-fluid h-100 w-100" alt="jalmahal">
+                        </div>
+                        <h4>TOYOTA INNOVA</h4>
+                        <div class="d-flex">
+                            <img src="human.png" alt="human" style="height: 25px" class="img-fluid">
+                            <p>Passengers: 6+1 (including Driver)</p>
+                        </div>
+                        <p>
+                            Booking Toyota Innova taxi in udaipur through assures a comfortable, safe, quick and trouble
+                            free journey.
+                        </p>
+                        <button type="button" class="btn btn-success">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- complete -->
+
+    <!-- padharo mardash -->
+    <div class="container">
+        <div class="text-center">
+
+            <h1 class="mb-3">Rajasthan Tour Packages - Padharo Mhare Desh!</h1>
+        </div>
+        <p class="pb-3">
+            Rajasthan is a must visit destination in India. Here you will find various options and itineraries for cheap
+            and budget Rajasthan holidays. We have created these itineraries based on high demand of international and
+            domestic travellers, and covered all popular destinations which are high in demand among travellers.
+        </p>
+        <p>
+            If you are crazy about heritage, culture, adventure or food tourism, then I can bet that state of Rajasthan
+            will not disappoint you. Humungous forts of Indian maharajas in Jaipur, beautiful historic lakes in Udaipur,
+            beautiful golden deserts of Jaisalmer and wildlife of Ranthambore, Rajasthan has flavours of everything you
+            can imagine in your holidays. Surprisingly, Rajasthan is not just about forts and palaces. There are so many
+            other unique experiences that you can enjoy in this place. For instance, you can plan safaris and camping
+            trip to one of the wildlife sanctuaries in Rajasthan. Rajasthan is a big state with more than 25 cities. You
+            cannot really visit all cities in your single visit. It is important that you plan your Rajasthan holiday
+            itinerary in a way that you make the most of your valuable time and take memories for lifetime. To make your
+            life easier, we have handpicked some of the best itineraries. We have planned these budget Rajasthan tour
+            packages using our 15 years of Rajasthan travel experience.
+        </p>
+    </div>
+    <!-- complete -->
+
+    <div class="container-fluid mb-5">
+        <div class="container">
+            <div class="row g-5 p-4 mt-5 ">
+                <div class="col-lg-6 ps-lg-0 fadeInLeft p-4 ">
+                    <h6 class="text-danger mb-3 mt-5">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Qoute!</h1>
+                    <p class="mb-5">Rajasthan is a must visit destination in India. Here you will find various options
+                        and itineraries for cheap and budget Rajasthan holidays. We have created these itineraries based
+                        on high demand of international and domestic travellers, and covered all popular destinations
+                        which are high in demand among travellers..</p>
+                    <div class="d-flex">
+                        <div>
+                            <img src="call.png" alt="call" class="img-fluid" style="width: 50px;">
+                        </div>
+                        <div style="margin-left: 10px;" class="text-center">
+                            <h5 class="h5">Call for any query!</h5>
+                            <h4 class="h4 text-danger">+91 8875230969</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 ps-lg-0 fadeInLeft p-4 " style="background-color: beige; ">
+                    <form class="p-2">
+                        <div class=" p-4">
+                            <input type="email" class="form-control p-3" placeholder="Your Name">
+                        </div>
+                        <div class="mb-1 p-4">
+                            <input type="email" class="form-control p-3" placeholder="Your email">
+                        </div>
+                        <div class="mb-1 p-4">
+                            <input type="  tel" placeholder="Your Mobile Number" class="form-control p-3">
+                        </div>
+                        <div class="mb-1 p-4 ">
+                            <textarea placeholder="massage" class="form-control p-3"></textarea>
+                        </div>
+                        <div class="mb-1 p-4 d-grid">
+                            <button type="submit" class="btn btn-primary mb-1  ">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- complete -->
+
+    <!-- clients -->
+    <div class="container-fluid mb-5 mt-5">
+        <div class="container">
+            <div class="text-center">
+                <h5 class="text-danger ">TESTIMONIAL</h5>
+                <h1 class="mb-3">Our Clients Say!</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <h5>Subhajit</h5>
+                        </div>
+
+                        <p>
+                            Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled
+                            the region and that, in 1727, founded what is now called the Old City, or “Pink City” for
+                            its trademark building color. At the center of its stately street grid (notable in India)
+                            stands the opulent, colonnaded City Palace complex. With gardens, courtyards and museums,
+                            part of it is still a royal residence.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <h5>Rohan</h5>
+                        </div>
+                        <p>
+                            Built in the year 1726 by Jai Singh II the Jaigarh, is one among forts in Jaipur is also
+                            known as the 'Fort of Victory'. A fine example of a self sufficient place, it is dominated
+                            by the huge walls and watchtowers. The thick walls are of red sandstone which runs to about
+                            3 kms.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <h5>Geeta</h5>
+                        </div>
+                        <p>
+                            Jal Mahal is a palace in the middle of the Man Sagar Lake in Jaipur city, the capital of the
+                            state of Rajasthan, India. The palace was originally constructed around 1699; the building
+                            and the lake around it were later renovated and enlarged in the early 18th century by
+                            Maharaja Jai Singh II of Amber
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- complete -->
+    <!-- footer -->
+    <div class="container-fluid bg-dark text-light">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4"> Address</h4>
+                    <div class="d-flex">
+                        <img src="location.png" height="25px">
+                        <p style="margin-left: 5px;">108 1st Floor, Crystal Mall, Near Moti Mahal Cinema, Banipark,
+                            jaipur Rajasthan .</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="call.png" height="25px">
+                        <p style="margin-left: 5px;">+91 8875230969</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="mail1.png" height="25px">
+                        <p style="margin-left: 5px;">info@finetourindia.com</p>
+                    </div>
+                    <div class="d-flex ">
+                        <div class="d-flex align-items-center justify-content-center"
+                            style="height: 40px; width: 40px; border-radius: 50%; margin-right: 5px; border:1px solid white;">
+                            <img src="mail1.png" height="25px">
+                        </div>
+                        <div  class="d-flex align-items-center justify-content-center"
+                            style="height: 40px; width: 40px; border-radius: 50%; margin-right: 5px; border:1px solid white;  ">
+                            <img src="twiter.png" height="25px">
+                        </div>
+                        <div  class="d-flex align-items-center justify-content-center"
+                            style="height: 40px; width: 40px; border-radius: 50%; margin-right: 5px; border:1px solid white;  ">
+                            <img src="youtube.png" height="25px">
+                        </div>
+                        <div  class="d-flex align-items-center justify-content-center"
+                            style="height: 40px; width: 40px; border-radius: 50%; margin-right: 5px; border:1px solid white; ">
+                            <img src="watshaap.jpg" height="25px">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Tour package</h4>
+                    <div class="d-flex  align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px;">Jaipur Sightseeing</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+
+                        <div>
+                            <p style="margin-left: 5px; ;">Golden Triangle</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Jaipur Pushkar</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Jaipur Ranthambore</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Jaipur Agra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Toure package</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Car Package</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Gallery</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <div><img src="grater.png" height="15px"></div>
+                        <div>
+                            <p style="margin-left: 5px; text-align: center;">Contact us</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3">
+                            <img src="copyright.png" height="20px">
+                            <a href="#" class=" text-light">Fine Toure India</a>
+                            ,All right revers
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer complete -->
+    <a href="https//watshaap.com" targer="_blank" id="position"><img src="watshaap.jpg" style="width: 50px;"></a>
+    <a href="https//watshaap.com" targer="_blank" id="position1"><img src="arrow11.png" style="width: 50px;"></a>
+
+</body>
+
+</html>
